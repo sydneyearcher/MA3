@@ -1,0 +1,65 @@
+@import 'variables';
+@import 'mixins';
+
+
+// Global styles
+* {
+  box-sizing: border-box;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}
+
+html {
+  font-size: $base-font-size;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}
+
+body {
+  font-family: $font-family;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: $primary-color;
+  border: 5px solid white;
+  text-align: center;
+  width: 50vw;
+  border-radius: 10px;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: $primary-color;
+  border: 5px solid white;
+  text-align: center;
+  width: 50vw;
+  border-radius: 10px;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}
+
+.container {
+  font-family: $font-family;
+  margin-bottom: 40px; 
+  background-color: $primary-color;
+  border: 5px solid white;
+  text-align: center;
+  width: 50vw;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  margin-bottom: 20px;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  box-sizing: border-box;
+  padding: 0 10px;
+  @include responsive-font-size(768px, 1024px, 16px, 18px);
+}

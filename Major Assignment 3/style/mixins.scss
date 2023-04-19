@@ -1,0 +1,12 @@
+@mixin center-element {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin responsive-font-size($min-screen, $max-screen, $min-font-size, $max-font-size) {
+  @media screen and (min-width: $min-screen) and (max-width: $max-screen) {
+    font-size: calc(#{$min-font-size} + #{($max-font-size - $min-font-size)} * ((100vw - #{$min-screen}) / #{($max-screen - $min-screen)}));
+  }
+}

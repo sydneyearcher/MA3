@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  * {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: pink;
+  border: 5px solid white;
+  text-align: center;
+  width: 50vw;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Arial", sans-serif;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: pink;
+  border: 5px solid white;
+  text-align: center;
+  width: 50vw;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h1, h2, h3, h4, h5, h6 {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}
+
+.container {
+  font-family: "Arial", sans-serif;
+  margin-bottom: 40px;
+  background-color: pink;
+  border: 5px solid white;
+  text-align: center;
+  width: 50vw;
+  border-radius: 10px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .row {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    font-size: calc(16px + 2px * ((100vw - 768px) / 256px));
+  }
+}/*# sourceMappingURL=main.css.map */
